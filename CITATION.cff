@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this environment, please cite the article below (preferred-citation)."
+title: "Tunnel Gazebo Environment"
+type: dataset
+authors:
+  - family-names: "Abdukodirov"
+    given-names: "Abdurauf"
+    email: "ismsiz0912@gmail.com"
+    orcid: "https://orcid.org/0009-0005-8121-1890"
+license: CC-BY-4.0
+repository-code: "https://github.com/Abdurauf0912/tunnel_gazebo_env"
+version: "1.0.0"
+date-released: "2026-10-21"
+keywords:
+  - gazebo
+  - ros
+  - simulation
+  - point-cloud
+  - tunnel
+  - underground
+  - navigation
+preferred-citation:
+  type: article
+  title: "Evaluation of Global Path Planning Algorithms for Mobile Robots in Simulated Underground Mining Environments"
+  authors:
+    - family-names: "Abdukodirov"
+      given-names: "Abdurauf"
+      orcid: "https://orcid.org/0009-0005-8121-1890"
+    - family-names: "Benndorf"
+      given-names: "Jörg"
+      orcid: "https://orcid.org/0000-0002-2002-8639"
+  journal: "Mining"
+  volume: 6
+  issue: 2
+  start: 38
+  year: 2026
+  doi: "10.3390/mining6020038"
+  url: "https://doi.org/10.3390/mining6020038"
+references:
+  - type: dataset
+    title: "SubSurfaceGeoRobo: A Comprehensive Underground Dataset for SLAM-based Geomonitoring with Sensor Calibration"
+    authors:
+      - family-names: "Li"
+        given-names: "Jing"
+      - family-names: "Benndorf"
+        given-names: "Jörg"
+      - family-names: "Köhler"
+        given-names: "Christian"
+      - family-names: "Loskot"
+        given-names: "Paulina"
+    year: 2025
+    publisher:
+      name: "PANGAEA"
+    doi: "10.1594/PANGAEA.975532"
+    url: "https://doi.org/10.1594/PANGAEA.975532"
+    license: CC-BY-4.0
+    notes: "Ground-truth point cloud used to reconstruct the tunnel (cave) mesh."

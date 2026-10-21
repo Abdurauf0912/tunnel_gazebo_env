@@ -1,0 +1,4 @@
+*.bag
+*.swp
+*~
+__pycache__/

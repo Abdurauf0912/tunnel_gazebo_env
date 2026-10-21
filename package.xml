@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tunnel_gazebo_env</name>
+  <version>1.0.0</version>
+  <description>
+    Gazebo simulation environments of an underground tunnel/cave (mesh reconstructed
+    from a point cloud) and a room-and-pillar mine, with 2D occupancy maps for navigation.
+  </description>
+
+  <author email="ismsiz0912@gmail.com">Abdurauf Abdukodirov</author>
+  <maintainer email="ismsiz0912@gmail.com">Abdurauf Abdukodirov</maintainer>
+
+  <license>CC-BY-4.0</license>
+
+  <url type="repository">https://github.com/Abdurauf0912/tunnel_gazebo_env</url>
+  <url type="bugtracker">https://github.com/Abdurauf0912/tunnel_gazebo_env/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="tunnel_world">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://tunnel</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <gui fullscreen="0">
+      <camera name="user_camera">
+        <pose>23.5 -19.78 10.58 0 0.5 1.54</pose>
+      </camera>
+    </gui>
+  </world>
+</sdf>
