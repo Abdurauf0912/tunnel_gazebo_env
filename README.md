@@ -1,5 +1,7 @@
 # Tunnel Gazebo Environment
 
+![Tunnel environment in Gazebo](docs/tunnel.jpg)
+
 Gazebo (Classic) simulation environments for testing robot navigation and path planning underground:
 
 - **tunnel**: a cave/tunnel mesh reconstructed from a real point cloud scan (see [Data source](#data-source)).
@@ -17,6 +19,7 @@ models/room_pillar/     Gazebo model: room-and-pillar mine mesh
 worlds/                 tunnel.world, room_pillar.world
 maps/                   2D occupancy maps (tunnel.yaml, room_pillar.yaml)
 launch/                 ROS launch files for each world
+docs/                   Images used in this README
 ```
 
 ## Download
